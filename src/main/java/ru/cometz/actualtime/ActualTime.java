@@ -13,7 +13,6 @@ public final class ActualTime extends JavaPlugin {
         instance = this;
         saveDefaultConfig();
         getLogger().info("ActualTime loaded.");
-        getLogger().info("Внимание! Возможна дохуища багов, ибо тестить такую штучку не оч просто. Если что пишите там, где скачали об ошибке, я скоро пофикшу и выпущу фикс.");
         for (org.bukkit.World world : getServer().getWorlds()) {
             world.setGameRule(GameRule.DO_DAYLIGHT_CYCLE, false);
         }

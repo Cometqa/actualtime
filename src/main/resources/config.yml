@@ -1,0 +1,24 @@
+# Configuration file for ActualTime plugin. Author: cometz aka cometq
+# Файл конфигурации для плагина ActualTime
+
+
+# It's worth clarifying here. In Minecraft, time doesn't run quite the same way as it does in real life. That's why I considered the beginning of the morning to be 8 o'clock.
+# So specify here what time you want to start the day.
+# Important! Time is counted according to the time of the SERVER! That is, if your server is in Frankfurt and you are in Moscow, the server will consider that the morning starts at 7 (Frankfurt GMT+2; Moscow GMT+3).
+# Still, I recommend not changing this value too much. Only if you are in the US and the server is in Europe.
+
+# Здесь стоит пояснить. В майнкрафте время идет не совсем так, как в жизни. Поэтому я считал началом утра 8 часов.
+# Значит указывайте здесь время, во сколько вы хотите начинать день.
+# Важно! Время считается по времени СЕРВЕРА! То есть, если ваш сервер во Франкфурте, а вы в Москве, сервер будет считать, что утро начинается с 7 (Frankfurt GMT+2; Moscow GMT+3)
+# Все же, я рекомендую не сильно менять это значение. Только если вы в США, а сервер - в Европе.
+
+offset: 8
+
+# The time in SERVER TICKS how often the time will be checked. The default 10000 is 10000/20 = 500 seconds = 8.3 minutes. On a stable server, TPS (ticks per second) = 20
+
+# Время в ТИКАХ СЕРВЕРА, как часто будет осуществляться проверка времени. По умолчанию 10000 - это 10000/20 = 500 секунд = 8.3 минуты. На стабильном сервере TPS (тики в секунду) = 20
+
+repeat: 10000
+
+# у меня пельмешки горят ааа
+# кста вкусные получились
